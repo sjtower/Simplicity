@@ -82,7 +82,7 @@ ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2]: %WHITE%%NAME% ($ %PRICE%) // Sorceres
 // NORMAL ITEMS
 ItemDisplay[NORM CLVL>4  NMAG !RW INF]: // hide inferior items from char level 5
 ItemDisplay[NORM CLVL>14 (NMAG OR MAG) !RW SOCK<2]:
-ItemDisplay[NORM CLVL>34 NMAG !RW]: // hide ALL normal white items from char level 35
+ItemDisplay[NORM CLVL>34 NMAG !RW SOCK<2]: // hide ALL normal white items with 1 or less sockets from char level 35
 
 ItemDisplay[NORM NMAG ETH !RW SOCK=0]: Ethereal %NAME%
 ItemDisplay[NORM NMAG ETH !RW]: Ethereal %NAME% [%SOCKETS%]
